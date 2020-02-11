@@ -1,0 +1,26 @@
+{
+    "name": "nix/ukrposhta",
+    "description": "Ukrposhta API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yurii Zub",
+            "email": "yuriyzee@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/fork-app/ukrposhtaAPI"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UkrPoshtaAPI\\": "src/"
+        }
+    }
+}

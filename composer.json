@@ -1,5 +1,5 @@
 {
-    "name": "nix/ukrposhta",
+    "name": "yuriizee/ukrposhta",
     "description": "Ukrposhta API",
     "type": "library",
     "authors": [
@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "https://github.com/fork-app/ukrposhtaAPI"
+            "url": "https://github.com/yuriizee/ukrposhta"
         }
     ],
     "require": {
